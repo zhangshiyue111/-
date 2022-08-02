@@ -1,10 +1,5 @@
 
 
-STOCKSELECTION_FOLDER = const.EOD_CONFIG_DICT["stock_selection_folder"]
-redis_query_manager = RedisQueryManager()
-full_multifactor_strategy_list = ["%s-%s" % (x, x) for x in MULTIFACTOR_STRATEGY_LIST]
-full_eif_strategy_list = ["%s-%s" % (x, x) for x in EIF_STRATEGY_LIST]
-
 
 class OrderReportJob:
     def __init__(self):
